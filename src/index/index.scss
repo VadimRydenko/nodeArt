@@ -4,3 +4,11 @@
 @import'../common/styles/base.scss';
 @import'../common/styles/hack.scss';
 
+.main-block {
+    max-width: 1400px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 1000px; // delete latet
+    // display: flex;
+    // justify-content: center;
+}
