@@ -16,7 +16,7 @@
         background-image: url('../../assets/images/Название\ \ компании\ самая\ клевая\ компания.png');
     }
     &__item {
-        @include height;
+        @include width;
         height: 230px;
         margin: 0 auto;
         &_numbers {
@@ -49,7 +49,7 @@
     justify-content: center;
     cursor: pointer;
     &__items {
-        @include height;
+        @include width;
         height: 80px; //delete
         display: flex;
         justify-content: space-around;
@@ -68,3 +68,5 @@
     height: 400px;
     background-image: url('../../assets/images/Слайд\ 1.png');
 }
+
+

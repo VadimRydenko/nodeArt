@@ -1,2 +1,20 @@
 @import './mixins';
    
+.menu {
+    background-color: #fff;
+    width: 100%;
+    &__items {
+        @include width;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        height: 54px;
+        margin: 0 auto;
+        &_divider {
+            padding: 0 4px 0 4px;
+        }
+        &_item {
+            color: rgb(118, 118, 118);
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import './mixins';
+
+.footer {
+    width: 100%;
+    height: 220px;
+    background-color: #777777;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "PTSans";
+    &__items {
+        @include width;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        &_email {
+            width:33.333%;
+        }
+        &_company {
+            width: 33.333%;
+            display: flex;
+        }
+    }
+    &__menu {
+        justify-self: center;
+        width:33.333%;
+        text-decoration: underline;
+        line-height: 1.857;
+        list-style: none;
+        &_item {
+            color: #fff;
+        }
+    }
+    &__logo {
+        background-image: url('../../assets/images/company.png');
+        width:36px;
+        height: 38px;
+        margin-right: 10px;
+    }
+}

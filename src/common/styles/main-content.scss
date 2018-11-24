@@ -1,2 +1,27 @@
 @import './mixins';
+
+.content {
+    height: 1385px;
+    background-image: url('../../assets/images/Фон.png');
+    &__items {
+        @include width;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        background-color: blue;
+        &_leftblock {
+            background-color: red;
+            width: $menu-width;
+            height: 500px; //delete
+            position: absolute;
+        }
+        &_centerblock {
+            background-color: green;
+            height: 500px; //delete
+            width: 700px; //delete
+            position: absolute;
+            margin-left:$menu-width;
+        }
+    }
+}
  

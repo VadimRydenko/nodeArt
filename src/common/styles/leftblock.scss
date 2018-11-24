@@ -1,0 +1,22 @@
+
+.leftblock-menu {
+    background-color: yellow;
+    list-style: none; 
+    text-align: left;
+    &__button {
+        border: none;
+        background-color: #fff;
+        color: rgb(118, 118, 118);
+        // text-decoration:underline; 
+        font-size: 18px;
+        font-family: "PTSans";
+        line-height: 1.667;
+        cursor:pointer;   
+    }
+    &__items {
+        // display: none;
+        font-size: 14px;
+    }
+}
+
+  
