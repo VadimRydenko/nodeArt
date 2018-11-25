@@ -10,17 +10,15 @@
         display: flex;
         background-color: blue;
         &_leftblock {
-            background-color: red;
             width: $menu-width;
             height: 500px; //delete
             position: absolute;
         }
         &_centerblock {
-            background-color: green;
-            height: 500px; //delete
-            width: 700px; //delete
             position: absolute;
             margin-left:$menu-width;
+            display: flex;
+            flex-direction: column;
         }
     }
 }

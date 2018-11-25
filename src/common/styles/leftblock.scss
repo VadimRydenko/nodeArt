@@ -1,6 +1,5 @@
 
 .leftblock-menu {
-    background-color: yellow;
     list-style: none; 
     text-align: left;
     &__button {
@@ -14,9 +13,41 @@
         cursor:pointer;   
     }
     &__items {
-        // display: none;
+        display: none;
         font-size: 14px;
+        padding-left:20px;
+        list-style-type:disc;
+    &-open {
+        .leftblock-menu__items {
+            display: block;
+        }
+    }
+    }
+    &__excel {
+        position: absolute;
+        margin-top: 170px; ////&&&&&
+        border: none;
+        width: 100%;
+        min-width: 160px;
+        height: 140px;
+        padding: 0;
+        background-color: #fff;
+        &_img {
+            margin: 0 auto;
+            width:100px;
+            height: 110px;
+            background-image: url('../../assets/images/MS\ -\ EXCEL.png');
+            background-repeat: no-repeat;
+        }
+        &_text {
+            font-size: 30px;
+            font-family: "PTSans";
+            color: rgb(68, 68, 68);
+            font-weight: bold;
+            line-height: 0.833;
+            text-align: center;
+        }
     }
 }
-
+  
   
