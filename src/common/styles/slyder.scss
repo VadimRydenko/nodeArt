@@ -1,0 +1,64 @@
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    height: 400px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    background-image: url('../../assets/images/Слой\ 8\ kопировать.png');
+    border: none;
+    width: 34px;
+    height: 61px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+  }
+  .prev {
+    left: 15%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 15%;
+    border-radius: 3px 0 0 3px;
+    transform: rotate(180deg);
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: 0.1} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.1} 
+    to {opacity: 1}
+  }
+
+  img {
+    height: 400px;
+  }
+  
+ 

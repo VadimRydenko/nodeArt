@@ -1,0 +1,313 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  height: 310px;
+  background-color: #dcdcdc;
+  position: relative; }
+  .header__logo {
+    position: absolute;
+    margin-top: 65px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    max-width: 273px;
+    width: 100%;
+    height: 100px;
+    background-image: url("./assets/images/Название  компании самая клевая компания.png"); }
+  .header__item {
+    max-width: 1000px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    height: 230px;
+    margin: 0 auto; }
+    .header__item_numbers {
+      font-size: 40px;
+      font-family: "OpenSans";
+      color: #767676;
+      line-height: 1.15;
+      text-align: right; }
+    .header__item_call-back {
+      color: #767676;
+      line-height: 1.15;
+      display: block;
+      text-align: right;
+      font-size: 24px; }
+
+.number1 {
+  padding-top: 45px; }
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #767676;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer; }
+  .navbar__items {
+    max-width: 1000px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    height: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .navbar__items_item {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      font-size: 30px;
+      color: white;
+      line-height: 1.2; }
+
+.slyder {
+  width: 100%;
+  height: 400px;
+  background-image: url("./assets/images/Слайд 1.png"); }
+
+.content {
+  height: 1385px;
+  background-image: url(./assets/images/Фон.png); }
+  .content__items {
+    max-width: 1000px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: blue; }
+    .content__items_leftblock {
+      width: 200px;
+      height: 500px;
+      position: absolute; }
+    .content__items_centerblock {
+      position: absolute;
+      margin-left: 200px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.footer {
+  width: 100%;
+  height: 220px;
+  background-color: #777777;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "PTSans"; }
+  .footer__items {
+    max-width: 1000px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer__items_email {
+      width: 33.333%; }
+    .footer__items_company {
+      width: 33.333%;
+      display: -ms-flexbox;
+      display: flex; }
+  .footer__menu {
+    justify-self: center;
+    width: 33.333%;
+    text-decoration: underline;
+    line-height: 1.857;
+    list-style: none; }
+    .footer__menu_item {
+      color: #fff; }
+  .footer__logo {
+    background-image: url(./assets/images/company.png);
+    width: 36px;
+    height: 38px;
+    margin-right: 10px; }
+
+.menu {
+  background-color: #fff;
+  width: 100%; }
+  .menu__items {
+    max-width: 1000px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    font-size: 14px;
+    height: 54px;
+    margin: 0 auto; }
+    .menu__items_divider {
+      padding: 0 4px 0 4px; }
+    .menu__items_item {
+      color: #767676; }
+
+.leftblock-menu {
+  list-style: none;
+  text-align: left; }
+  .leftblock-menu__button {
+    border: none;
+    background-color: #fff;
+    color: #767676;
+    font-size: 18px;
+    font-family: "PTSans";
+    line-height: 1.667;
+    cursor: pointer; }
+  .leftblock-menu__items {
+    display: none;
+    font-size: 14px;
+    padding-left: 20px;
+    list-style-type: disc; }
+    .leftblock-menu__items-open .leftblock-menu__items {
+      display: block; }
+  .leftblock-menu__excel {
+    position: absolute;
+    margin-top: 170px;
+    border: none;
+    width: 100%;
+    min-width: 160px;
+    height: 140px;
+    padding: 0;
+    background-color: #fff; }
+    .leftblock-menu__excel_img {
+      margin: 0 auto;
+      width: 100px;
+      height: 110px;
+      background-image: url("./assets/images/MS - EXCEL.png");
+      background-repeat: no-repeat; }
+    .leftblock-menu__excel_text {
+      font-size: 30px;
+      font-family: "PTSans";
+      color: #444444;
+      font-weight: bold;
+      line-height: 0.833;
+      text-align: center; }
+
+.products {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.product {
+  background-color: #dcdcdc;
+  width: 250px;
+  height: 380px;
+  margin: 6px; }
+  .product__items {
+    width: 100%;
+    max-width: 210px;
+    margin: 20px; }
+    .product__items_img {
+      background-image: url(./assets/images/nophoto.png);
+      width: 100%;
+      height: 210px;
+      margin-bottom: 20px; }
+    .product__items_description {
+      width: 100%;
+      max-width: 210px;
+      margin: 0 auto; }
+  .product__item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-top: 55px; }
+
+.text {
+  font-size: 18px;
+  font-family: "PTSans";
+  color: #767676;
+  line-height: 1;
+  text-align: left; }
+
+.price {
+  font-size: 28px;
+  font-family: "PTSans";
+  color: #444444;
+  font-weight: bold;
+  line-height: 0.643;
+  text-align: left; }
+
+.button {
+  width: 28px;
+  height: 21px;
+  background-image: url(./assets/images/addtobasket_mini.png);
+  margin-right: 15px;
+  border: none; }
+
+.centerblock__navigation {
+  margin-top: 35px;
+  text-align: center;
+  height: 30px; }
+  .centerblock__navigation_number {
+    color: #767676;
+    font-size: 14px;
+    font-family: "PTSans";
+    line-height: 1.571;
+    letter-spacing: 0.56em;
+    height: 100%;
+    margin: auto;
+    text-decoration: none; }
+    .centerblock__navigation_number:hover {
+      font-size: 18px; }
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #777777;
+  margin: 65px 0 30px 0; }
+
+.text-area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  font-size: 14px;
+  font-family: "PTSans";
+  color: #767676;
+  line-height: 1.571;
+  text-align: left; }
+
+.text1 {
+  max-width: 375px; }
+
+.text2 {
+  max-width: 375px; }
+
+* {
+  box-sizing: border-box; }
+  *:active, *:hover, *:focus {
+    outline: 0; }
+
+html {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #282828; }
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body, h1, h2, h3, h4, ul, ol, figure {
+  margin: 0;
+  padding: 0; }
+
+/********* Edge *********/
+/********* Firefox Mozilla *********/
+/********* Opera *********/
+.main-block {
+  max-width: 1400px;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 1000px; }

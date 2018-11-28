@@ -2,26 +2,34 @@
 .leftblock-menu {
     list-style: none; 
     text-align: left;
-    &__button {
-        border: none;
-        background-color: #fff;
+    &__container {        
         color: rgb(118, 118, 118);
-        // text-decoration:underline; 
         font-size: 18px;
         font-family: "PTSans";
         line-height: 1.667;
-        cursor:pointer;   
+        cursor:pointer;
+        &_open {
+            .leftblock-menu__items {
+                display: block;
+                // transform: scaleY(1);
+                // transform-origin: top;
+                // opacity: 1;
+                // overflow: hidden;
+                // position: absolute;
+            } 
+        }
     }
     &__items {
         display: none;
         font-size: 14px;
         padding-left:20px;
         list-style-type:disc;
-    &-open {
-        .leftblock-menu__items {
-            display: block;
-        }
-    }
+        // opacity: 0;
+        // transition: all 400ms;
+        // transform: scaleY(0);
+        // transform-origin: top;
+        // overflow: hidden;
+        // position: absolute;
     }
     &__excel {
         position: absolute;
